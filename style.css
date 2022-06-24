@@ -1,0 +1,315 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.menuFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.navFondYellow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    height: 6vh;
+    margin-top: 12vh;
+    background-color: #FED730;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logoMenu {
+    width: 12%;
+    height: auto;
+    padding-bottom: 3vh;
+}
+
+ul {
+    padding-right: 2vw;
+}
+
+ul>button>a {
+    text-decoration: none;
+    /* -------------Appliquer changement pour couleur texte BLANC JS------------------ */
+    color: black;
+}
+
+ul>button {
+    /* -----------------------Appliquer changement pour fond NOIR JS------------------ */
+    background-color: transparent;
+    border-style: none;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* -----------------------------GRID 8 COL / 10 RANG------------------------------ */
+/* -----------------------------BLOC1------------------------------ */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.div1 {
+    grid-area: 1 / 2 / 2 / 8;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    border-right: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-right-radius: 100px;
+}
+
+.photoPresentation {
+    position: absolute;
+    padding-top: 35vh;
+    margin-left: -5vw;
+}
+
+.boxFlexPresentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9vh;
+}
+
+.ordinateurPresentation {
+    padding-right: 5vw;
+}
+
+.textePresentation {
+    width: 45%;
+    height: auto;
+    text-align: right;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-size: 38px;
+    line-height: 130%;
+}
+
+/* -----------------------------BLOC2------------------------------ */
+
+.div2 {
+    grid-area: 2 / 2 / 3 / 8;
+    width: 100%;
+    height: 70vh;
+    border-left: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-left-radius: 100px;
+    margin-top: -20vh;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.25) 1.59%,
+            rgba(129, 129, 129, 0.124019) 64.36%,
+            rgba(255, 255, 255, 0) 100%);
+    background-image: url("../PORTFOLIO/images/masqueArrierePlanPresentation.png");
+    background-repeat: no-repeat;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:-5vh;
+
+}
+
+.titreTexteDescription {
+    width:50%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color:white
+
+}
+
+.texteDescription {
+    width: 50%;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 200%;
+}
+
+
+/* -----------------------------BLOC3------------------------------ */
+
+.div3 {
+    grid-area: 3 / 3 / 4 / 8;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: dashed 15px #FED730;
+    border-left: dashed 15px #FED730;
+    border-top: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    margin-top: -10vh;
+    background-image: url("../PORTFOLIO/images/fondDivProg.png");
+    background-repeat: no-repeat;
+}
+
+/* --------------------SOLUTION POSSIBLE AVEC DEGRADE 
+(dash linear gradian avec zone courte et opacité 0 A VOIR---------------------- */
+
+/* .couleurCacheNoir {
+    background:
+        conic-gradient(from -180deg at right 0px top 20px, rgb(0, 0, 0) 0 90deg, blue 0)
+         100% 100%/calc(50% - 40px + 50px) calc(100% + 20px) no-repeat;
+    } */
+
+.cacheNoirBefore::after {
+    position: absolute;
+    right: 0;
+    top: -10vh;
+    content: "";
+    width: 38vw;
+    height: 20vh;
+    background-color: black;
+}
+
+.titreDeveloppementWeb {
+    width:40%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color:white;
+}
+
+.texteDeveloppementWeb {
+    width: 80%;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 200%;
+}
+
+/* .texteDeveloppementWeb, .titreDeveloppementWeb {
+    margin-top:15vh;
+} */
+
+/* .fondDiv {
+    background-image: url("../PORTFOLIO/images/fondDivProg.png");
+    background-repeat: no-repeat;
+} */
+
+
+.iconeProgrammation {
+    position: absolute;
+    top: -30vh;
+    right: 25vw;
+}
+
+.logoLogiciel {
+    position: absolute;
+    width: 70%;
+    bottom: -11.4vh;
+    right: 9.9vw;
+}
+
+/* -----------------------------BLOC4------------------------------ */
+
+
+.div4 {
+    grid-area: 4 / 3 / 5 / 8;
+    position: relative;
+    margin-bottom: -52vh;
+    margin-right:15px;
+    width: 100%;
+    height: 40vh;
+    border-left: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.cacheNoirBefore2::after {
+    position: absolute;
+    left:26vw;
+    top:30vh;
+    content: "";
+    width: 50vw;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* -----------------------------BLOC5------------------------------ */
+
+.div5 {
+    grid-area: 5 / 3 / 6 / 8;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    border-right: dashed 15px #FED730;
+    border-top: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -20vh;
+}
+
+.cacheNoirBefore3::after {
+    position: absolute;
+    top: -10vh;
+    right: 20vw;
+    content: "";
+    width: 45vw;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.logoGraphisme {
+    position: absolute;
+    top: -43vh;
+    right: 15vw;
+    z-index: 100;
+    transform: rotate(15deg);
+}
+
+.div6 {
+    grid-area: 6 / 2 / 7 / 8;
+}
+
+.div7 {
+    grid-area: 7 / 2 / 8 / 8;
+}
+
+.div8 {
+    grid-area: 8 / 2 / 9 / 8;
+}
+
+.div9 {
+    grid-area: 9 / 2 / 10 / 8;
+}
+
+.div10 {
+    grid-area: 10 / 2 / 11 / 8;
+}
