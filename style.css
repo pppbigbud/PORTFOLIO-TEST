@@ -53,8 +53,8 @@ body ul {
   grid-row-gap: 10px;
 }
 .grilleGRID .blocMenu {
-  grid-area: 1/3/2/11;
-  display: grid;
+  grid-area: 1/2/2/11;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-right: dashed 15px #fed730;
@@ -63,9 +63,10 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 70%;
   height: 6vh;
-  margin-top: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 6vh;
   background-color: #fed730;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
@@ -74,6 +75,22 @@ body ul {
   width: 12%;
   height: auto;
   padding-bottom: 3vh;
+}
+.grilleGRID .couleurBouton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  padding: 0.7rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 800;
+}
+.grilleGRID .couleurBouton :hover {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: rgb(219, 33, 33);
+  text-decoration: none;
+  font-weight: 800;
 }
 
 .ordinateurPresentation {
