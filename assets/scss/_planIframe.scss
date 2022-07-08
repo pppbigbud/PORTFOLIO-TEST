@@ -1,0 +1,31 @@
+.barreTransitionCarte {
+  grid-area: 10 / 3 / 11 / 5;
+  border-right: dashed 15px #fed730;
+}
+
+.logoPlanFormulaire {
+  grid-area: 10 / 4 / 11 / 6;
+}
+
+.planIframe {
+  grid-area: 11 / 3 / 12 / 11;
+  position: relative;
+  border-right: dashed 15px #fed730;
+  border-left: dashed 15px #fed730;
+  border-top: dashed 15px #fed730;
+  border-bottom: dashed 15px #fed730;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  min-height: 60vh;
+}
+
+.map-responsive {
+  overflow: hidden;
+}
+
+.map-responsive iframe {
+  height: 150%;
+  width: 150%;
+}

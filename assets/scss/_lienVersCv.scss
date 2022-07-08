@@ -1,0 +1,13 @@
+.dashCV {
+    grid-area: 3 / 10 / 5 / 11;
+    border-left: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-left-radius: 100px;
+}
+
+.logoCV {
+    grid-area: 4 / 10 / 5 / 11;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -7vh;
+}

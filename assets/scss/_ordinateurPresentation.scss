@@ -1,0 +1,56 @@
+.ordinateurPresentation {
+    grid-area: 2 / 3 / 3 / 11;
+    border-right: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-right-radius: 100px;
+
+.ordinateur{
+    margin: 2vh;
+    padding: 2vh;
+}
+}
+
+// @media all and (min-width: 1279px) and (max-width: 1368px) {
+
+//     #dash2 {
+//         grid-area: 1 / 3 / 3 / 13;
+//         border-right: dashed 15px #FED730;
+//         border-bottom: dashed 15px #FED730;
+//         border-bottom-right-radius: 100px;
+//     }
+
+//     #noDash {
+//         grid-area: 1 / 2 / 2 / 12;
+//         border-right: 0;
+//     }
+
+// }
+
+
+// @media all and (min-width: 769px) and (max-width: 1279px) {
+
+
+//     #noDash {
+//         grid-area: 1 / 2 / 2 / 12;
+//         border-right: 0;
+//     }
+
+//     #dash2 {
+//         grid-area: 1 / 3 / 3 / 13;
+//         border-right: dashed 15px #FED730;
+//         border-bottom: dashed 15px #FED730;
+//         border-bottom-right-radius: 100px;
+//     }
+
+// }
+
+// @media all and (min-width: 481px) and (max-width: 768px) {
+
+//     #dash2 {
+//         grid-area: 1 / 3 / 3 / 13;
+//         border-right: dashed 15px #FED730;
+//         border-bottom: dashed 15px #FED730;
+//         border-bottom-right-radius: 100px;
+//     }
+
+// }

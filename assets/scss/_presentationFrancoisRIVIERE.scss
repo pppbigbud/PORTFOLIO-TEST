@@ -1,0 +1,34 @@
+.photoPresentation {
+    grid-area: 3 / 2 / 4 / 4;
+    margin-top: -6vh;
+    z-index:4;
+
+}
+
+.presentationFrancoisRIVIERE {
+    grid-area: 3 / 3 / 5 / 11;
+    background-image: url("/assets/images/masqueArrierePlanPresentation.png");
+    background-repeat: no-repeat;
+
+
+    .titreDescription {
+        width: 50%;
+        text-align: center;
+        margin-left: 12vw;
+    }
+
+    .texteDescription {
+        width: 50%;
+        text-align: center;
+        margin-left: 12vw;
+        margin-bottom: 15vh;
+    }
+    
+}
+
+.dashFondPresentation {
+    grid-area: 3 / 3 / 5 / 7;
+    border-bottom: dashed 15px #FED730;
+    border-left: dashed 15px #FED730;
+    border-bottom-left-radius: 100px;
+}

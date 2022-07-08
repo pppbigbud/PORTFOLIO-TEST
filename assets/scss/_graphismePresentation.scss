@@ -1,0 +1,55 @@
+.dashTransitionDevIconeGraphisme {
+    grid-area: 7 / 7 / 8 / 8;
+    border-right: dashed 15px #FED730;
+    border-top-left-radius: 100px;
+    min-height: 20vh;
+}
+
+.dashTransitionGraphisme{
+    grid-area: 8 / 7 / 9 / 8;
+    border-right: dashed 15px #FED730;
+    border-top-left-radius: 100px;
+    min-height: 20vh;
+}
+
+.iconeGraphisme {
+    grid-area: 7 / 7 / 9 / 9;
+    margin-top: 7vh;
+    z-index: 5;
+
+    .iconeGraphisme {
+        width: 100%;
+        height: auto;
+       
+    }
+}
+
+.graphisme {
+    grid-area: 9 / 4 / 10 / 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: dashed 15px #FED730;
+    border-left: dashed 15px #FED730;
+    border-top: dashed 15px #FED730;
+    border-bottom: dashed 15px #FED730;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+    .titreGraphisme {
+        width: 50%;
+        text-align: center;
+    }
+
+    .texteGraphisme {
+        width: 80%;
+        text-align: center;
+    }
+
+    .logoLogicielGraphisme {
+        width: 65%;
+    }
+}

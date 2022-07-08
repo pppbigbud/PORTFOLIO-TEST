@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -----------------------------------Chargement POLICE DE CARACTERE----------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!---------------------------------------Chargement STYLE CSS et JS--------------------------------------------->
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+          (function() {
+              // https://dashboard.emailjs.com/admin/account
+              emailjs.init('xh3-LU0mj2-FE5tsC');
+          })();
+      </script>
+
+    <title>Portfolio François RIVIERE</title>
+  </head>
+
+  <body>
+    <!-- ---------------------------------------GRILLE GRID---------------------------------------->
+    <div class="grilleGRID">
+      <!--------------------------------------------MENU--------------------------------------------->
+      <div class="blocMenu" id="haut">
+        <div class="fondNoirAuSurvol">
+          <div class="barreNavigationFondJaune">
+            <div class="button">
+              <a class="couleurBouton" href="#accueil"> <h2>Accueil</h2></a>
+            </div>
+
+            <div class="button">
+              <a class="couleurBouton" href="#aPropos"> <h2>A propos</h2></a>
+            </div>
+
+            <img
+              src="./assets/images/logoPortfolio.png"
+              alt="logoDevWebFrancoisRiviere"
+              class="logoMenu"
+              id="tailleTete"
+            />
+
+            <div class="button">
+              <a class="couleurBouton" href="#mesTravaux">
+                <h2>Mes Travaux</h2></a
+              >
+            </div>
+
+            <div class="button">
+              <a class="couleurBouton" href="#contact"> <h2>Contact</h2></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------------------------------ORDINATEUR PRESENTATION---------------------------------------->
+
+      <div class="ordinateurPresentation">
+        <img
+          src="./assets/images/ordinateur.png"
+          alt="Francois RIVIERE Developpeur Web"
+          class="ordinateur"
+        />
+      </div>
+
+      <!-- ------------------------------------PRESENTATION FRANCOIS RIVIERE---------------------------------------->
+
+      <div class="photoPresentation">
+        <img
+          src="./assets/images/photoPresentation.png"
+          alt="logoDevWebFrancoisRiviere"
+          class="photoPresentation"
+        />
+      </div>
+
+      <div class="presentationFrancoisRIVIERE">
+        <div class="titreDescription">
+          <h1>Developpeur Full Stack</h1>
+        </div>
+
+        <div class="texteDescription">
+          <h3>
+            Aprés des études supérieurs dans la communication et une
+            spécialisation dans la création publicitaire. Ma vie professionnelle
+            passée, s’est quant à elle tournée vers le métier de
+            Technico-Commercial. Plus de détails dans mon CV...
+          </h3>
+        </div>
+      </div>
+
+      <div class="dashFondPresentation" id="aPropos"></div>
+
+      <!--------------------------------------------LIEN VERS CV----------------------------------------------------------------->
+
+      <div class="dashCV"></div>
+
+      <div class="logoCV">
+        <a href="./assets/images/CVFrancoisRIVIERE.jpg">
+          <img src="./assets/images/iconeCV.png" alt="logoCV" />
+        </a>
+      </div>
+
+      <!-- ------------------------------------TRANSITION DEV WEB FULL STACK------------------------------------------------------>
+
+      <div class="divTransitionDevWebBordures"></div>
+
+      <div class="iconeTransitionDevWeb">
+        <img
+          src="assets/images/iconeProgrammation.png"
+          alt="icone-Programmation"
+          class="iconeProgrammation"
+        />
+      </div>
+
+      <!-- ------------------------------------BLOC PRESENTATION FORMATION DEV WEB FULL STACK-------------------------------------->
+
+      <div class="devWeb" id="mesTravaux">
+        <div class="titreDevWeb">
+          <h1>En formation de "DEV FULL STACK"</h1>
+        </div>
+
+        <div class="texteDevWeb">
+          <h3>
+            Pour faire un petit résumé je suis actuellement en formation de "DEV
+            FULL STACK", formation qualifiante d'un an (35h/semaine, BAC+2)
+            Durant cette formation nous avons déjà abordé, lors de nos premiers
+            mois le Front (FIGMA, HTML/CSS-SASS et BOOTSTRAP) avec un peu d'ALGO
+            en préalable et du Versioning avec GITHUB, ainsi que de la gestion
+            de projet. Concernant le Back nous venons de terminer les
+            BBD(MLD,MCD…) et SQL, et nous sommes en ce moment sur JAVASCRIPT.
+            Pour la suite ce sera, ANGULAR suivi de PHP procédural/objet/doc et
+            SYMFONY jusqu’à ma période de stage début Octobre.
+          </h3>
+        </div>
+
+        <img
+          src="assets/images/logoLogiciel.png"
+          alt="logo-Graphisme"
+          class="logoLogiciel"
+        />
+      </div>
+
+      <!--------------------------------------TRANSITION GRAPHISME---------------------------------------------------------------->
+
+      <div class="dashTransitionDevIconeGraphisme"></div>
+
+      <div class="iconeGraphisme">
+        <img src="assets/images/logoGraphisme.png" alt="icone-Graphisme" />
+      </div>
+
+      <div class="dashTransitionGraphisme"></div>
+
+      <!----------------------------------BLOC PRESENTATION GRAPHISME------------------------------------------------------------->
+
+      <div class="graphisme">
+        <div class="titreGraphisme">
+          <h1>Graphisme, packaging et impression</h1>
+        </div>
+
+        <div class="texteGraphisme">
+          <h3>
+            Depuis la fin de mes études supérieurs j'ai toujours été attiré par
+            la création graphique. J'estime avoir une bonne connnaissance des
+            logiciels de retouche, vectoriels et de mise en page mais également
+            quelques compétences de montage video. Mes expériences passées dans
+            l'impression grand format et le packaging m'ont également permis
+            d'acquérir de bon reflexe dans la mise en production et
+            l'industrialisation de produits print.
+          </h3>
+        </div>
+
+        <img
+          src="assets/images/logoLogicielsGraphisme.png"
+          alt="logo-Graphisme"
+          class="logoLogicielGraphisme"
+        />
+      </div>
+
+      <!--------------------------------------TRANSITION PLAN---------------------------------------------------------------->
+
+      <div class="barreTransitionCarte"></div>
+
+      <div class="logoPlanFormulaire">
+        <img
+          src="assets/images/iconeContact.png"
+          alt="logo-Graphisme"
+          class="iconePlanFormulaire"
+        />
+      </div>
+
+      <!--------------------------------------PLAN------------------------------------------------------------------------->
+
+      <div class="planIframe map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11107.449668830872!2d3.6287252000000003!3d45.8940647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1656877906119!5m2!1sfr!2sfr"
+          width="100%"
+          height="600"
+          frameborder="0"
+          style="border: 0; margin-top: 0"
+        ></iframe>
+      </div>
+
+      <!-----------------------------------------------CONTACT---------------------------------------------------------------->
+    
+  
+
+    <div class="formulaire" id="contact">
+
+        <div class="titreFormulaire">
+            <h1>Laissez-moi un message</h1>
+        </div>
+
+      <form id="contact-form">
+
+        <div class="alignement">
+      
+          <input type="hidden" name="contact_number">
+          <label>Votre nom ici</label>
+        
+          <input type="text" name="user_name">
+          <label>Email</label>
+      
+          <input type="email" name="user_email">
+          <label>Message</label>
+          <textarea name="message"></textarea>
+        
+          <input type="submit" value="Envoyer" class="boutonFormulaire">
+        </div>
+      </form>
+    </div>
+ 
+    <!-----------------------------------------------RETOUR VERS LE HAUT---------------------------------------------------------------->
+
+    <a id="haut" href="#haut" class="retour">
+      <img
+        src="./assets/images/retourVersLeHaut.png"
+        alt="logo-Graphisme"
+        class="retourVersLeHaut"
+      />
+    </a>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_wielp1o', 'template_1m2pk1k', this)
+                    .then(function() {
+                        alert('Ok merci ton email est bien parti !');
+                    }, function(error) {
+                        alert('OUPSSSSS..', error);
+                    });
+            });
+        }
+    </script>
+  </body>
+</html>
